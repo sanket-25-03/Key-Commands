@@ -46,9 +46,7 @@ docker ps
 ---
 
 ### 5. `docker run -d start`
-- This command is incorrect; it likely intends to:
   - `-d`: Run the container in detached mode.
-  - `start`: Could be mistaken for a container name or image.
 
 **Corrected Example:**  
 ```bash
