@@ -1,4 +1,4 @@
-### 1. **Set Up a Virtual Environment (Optional but Recommended)**
+### 1. **Set Up a Virtual Environment **
 ```bash
 python -m venv venv
 source venv/bin/activate  # On Windows use: venv\Scripts\activate
