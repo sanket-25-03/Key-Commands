@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
-    'rest_framework',  # Add DRF
-    'myapp',  # Add your app
+    'rest_framework',
+    'myapp', 
 ]
 ```
