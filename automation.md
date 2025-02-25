@@ -1,13 +1,13 @@
-file name should be test_*.py or *_test.py
+1. file name should be test_*.py or *_test.py
 
-function name should be test_*
+2. function name should be test_*
 
-to run all test files
+3. to run all test files
 ```
 pytest or pytest -v 
 ```
 
-To execute the tests from a specific file, use the following syntax −
+4. To execute the tests from a specific file, use the following syntax −
 ```
 pytest <filename> -v
 ```
