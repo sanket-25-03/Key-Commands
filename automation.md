@@ -31,3 +31,14 @@ pytest -m <markername> -v
 ```
 @pytest.mark.skip
 ```
+
+9. The syntax to stop the execution of test suite soon after n number of test fails is as follows −
+```
+pytest --maxfail = <num>
+```
+
+10. we can run tests by using the syntax pytest -n <num>
+```
+pytest -n 3
+```
+-n <num> runs the tests by using multiple workers, here it is 3.
