@@ -1,5 +1,3 @@
-Here’s a detailed breakdown of the Docker commands you listed:
-
 ### 1. `docker run <image>`
 - This command runs a container from the specified image.
 - If the image is not available locally, it will pull the image from Docker Hub.
@@ -100,5 +98,3 @@ docker ps -a
 docker run --name my_web -d -p 8080:80 nginx
 ```
 - Runs an `nginx` container named `my_web` and maps port `8080` on the host to `80` inside the container.
-
-Let me know if you need further details! 🚀
