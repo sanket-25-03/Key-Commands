@@ -42,3 +42,8 @@ pytest --maxfail = <num>
 pytest -n 3
 ```
 -n <num> runs the tests by using multiple workers, here it is 3.
+
+11. We will now execute the tests from test_multiplcation.py and generate the xml by running
+```
+pytest test_multiplication.py -v --junitxml="result.xml"
+```
